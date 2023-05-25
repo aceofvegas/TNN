@@ -1,0 +1,152 @@
+:root {
+  --bg-color: #333333;
+  --text-color: white;
+  --hover-color: #555555;
+  --button-color: #999999;
+  --mainbg-color: #e2e2e2;
+
+  --grad-start: #ff9a9e; 
+  --grad-end: #fad0c4;
+  --h1-color: #000000;
+  --p-color: #0f0f0f
+}
+
+body.dark-mode {
+  --mainbg-color: #000117;
+  --grad-start: #000117; 
+  --grad-end: #0e0130;
+  --h1-color: #e6e6e6;
+  --p-color: #c9c9c9;
+}
+
+/* Header section */
+.header {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+.nav-items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav-items a {
+  margin-left: 20px;
+  color: #333;
+  text-decoration: none;
+}
+.nav-items a:hover {
+  color: #555;
+}
+
+/* Main section */
+.intro {
+  background-image: url("https://source.unsplash.com/1600x900/?news");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.intro h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.intro p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.intro button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+}
+.achievements {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+}
+.work {
+  width: 300px;
+  text-align: center;
+}
+.work i {
+  font-size: 48px;
+  color: #333;
+}
+.work-heading {
+  color: black;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.work-text {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+  .work-heading:hover {
+    color: red;
+  }
+.about-me {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 40px; 
+  max-width: 100%;
+}
+.about-me-text {
+  width: 600px; 
+}
+.about-me-text h2 {
+  font-size: 32px; 
+}
+.about-me-text p {
+  font-size: 18px; 
+}
+.about-me-img {
+  width: 350px; 
+  height: auto; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+ 
+}
+
+/* Footer section */
+.footer {
+  background-color:#333; 
+  color:white; 
+  padding-top :40px; 
+  padding-bottom :40px; 
+}
+.footer-logo {
+  font-size :24px; 
+  font-weight :bold; 
+  color:white; 
+  text-decoration :none; 
+}
+.footer-nav a {
+  margin-left :20px; 
+  color:white; 
+  text-decoration :none; 
+}
+.footer-nav a:hover {
+  color:#555; 
+}
+.footer-social i {
+  margin-left :10px; 
+  color:white; 
+}
+.footer-social i:hover {
+  color:#555; 
+}
