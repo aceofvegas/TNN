@@ -1,110 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/main.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TNN - News Home</title>
-    <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Font Awesome CDN -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <!-- Custom CSS -->
+    <title>TNN</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/darkmode.js"></script>
 </head>
 <body>
-    <!-- Header section -->
-    <header class="header">
-        <a href="#" class="logo">BizNews</a>
-        <nav class="nav-items">
-          <a href="#">Home</a>
-          <a href="#">World</a>
-          <a href="#">Business</a>
-          <a href="#">Sports</a>
-          <a href="#">Entertainment</a>
-          <a href="#">Contact</a>
-      </nav>
-    </header>
-
-    <!-- Main section -->
-    <main>
-      <div class="intro">
-          <h1>Breaking News</h1>
-          <p>Stay updated with the latest news from around the world.</p>
-          <button>Read More</button>
-      </div>
-
-      <div class="achievements">
-          <div class="work">
-              <i class="fas fa-newspaper"></i>
-              <p></p>
-              <a class="work-heading" href="articles.html">Articles</a>
-              <p class="work-text">We publish high-quality and informative articles on various topics.</p>
-          </div>
-
-          <div class="work">
-              <i class="fas fa-users"></i>
-              <p class="work-heading">Audience</p>
-              <p class="work-text">We have a large and loyal audience who trust our news sources.</p>
-          </div>
-
-          <div class="work">
-              <i class="fas fa-award"></i>
-              <p class="work-heading">Awards</p>
-              <p class="work-text">We have won many awards and recognition for our journalism.</p>
-          </div>
-
-      </div>
-
-      <div class="about-me">
-          <div class="about-me-text">
-              <h2>About Us</h2>
-              <p>Welcome to TNN, the news website that brings you the most relevant and interesting stories from across the globe. We are a group of dedicated reporters who strive to provide you with factual, balanced and captivating news every day. We cover various topics such as world, business, sports, entertainment, and more. We also provide analysis and opinions on current affairs and issues that matter to you.</p>
-          </div>
-
-          <div class="about-me-img">
-              <img src="https://source.unsplash.com/500x500/?journalist" alt="">
-          </div>
-
-      </div>
-
-    </main>
-
-    <!-- Footer section -->
-    <footer class="footer">
-      <div class="container">
-          <div class="row">
-              <!-- First column -->
-              <div class="col-md-4 col-sm-12">
-                  <a href="#" class="footer-logo">TNN</a>
-                  <p>&copy; TNN. All rights reserved.</p>
-              </div>
-
-              <!-- Second column -->
-              <div class="col-md-4 col-sm-12">
-                  <nav class="footer-nav">
-                      <a href="#">Home</a>
-                      <a href="#">World</a>
-                      <a href="#">Business</a>
-                      <a href="#">Sports</a>
-                      <a href="#">Entertainment</a>
-                      <a href="#">Contact</a>  
-                  </nav>  
-              </div>
-
-              <!-- Third column -->
-              <div class="col-md-4 col-sm-12">
-                  <div class="footer-social">
-                      Follow us on:
-                      <i class="fab fa-facebook-f"></i>
-                      <i class="fab fa-twitter"></i>
-                      <i class="fab fa-instagram"></i>  
-                  </div>  
-              </div>
-
-          </div>  
-      </div>  
-    </footer>
-
-    
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="img/tnn.png" alt="News Website Logo">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">NFL</a></li>
+                    <li><a href="#">NBA</a></li>
+                    <li><a href="#">MLB</a></li>
+                    <li><a href="#">NHL</a></li>
+                    <li><a href="#">Soccer</a></li>
+                    <li class="toggle"><button  id="dark-mode-button" onclick="toggleDarkMode()">💡</button></li>
+                </ul>
+            </div>
+            <div class="toggle">
+                
+            </div>
+        </header>
+        <main>
+            <section class="top-stories">
+                <h2>Top Stories</h2>
+                <div class="stories-grid">
+                    <!-- Add your stories here -->
+                    <div class="story">
+                        <img src="img/dj1.png" alt="Story 1 Image">
+                        <h3>Story 1 Title</h3>
+                        <p>Story 1 Summary</p>
+                        <a href="#">Read More</a>
+                    </div>
+                    <!-- Repeat for other stories -->
+                    <div class="story">
+                        <img src="img/jb1.png" alt="Story 1 Image">
+                        <h3>Story 1 Title</h3>
+                        <p>Story 1 Summary</p>
+                        <a href="#">Read More</a>
+                    </div>
+                    <!-- Add your stories here -->
+                    <div class="story">
+                        <img src="img/dj3.png" alt="Story 1 Image">
+                        <h3>Story 1 Title</h3>
+                        <p>Story 1 Summary</p>
+                        <a href="#">Read More</a>
+                    </div>
+                    <!-- Repeat for other stories -->
+                    <div class="story">
+                        <img src="img/jb2.png" alt="Story 1 Image">
+                        <h3>Story 1 Title</h3>
+                        <p>Story 1 Summary</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </section>
+            <!-- Add more sections as needed -->
+        </main>
+        <footer>
+            <!-- Add your footer content here -->
+            <p>&copy; 2023 TNN. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
