@@ -14,6 +14,7 @@
     --link-color: blue;
     --button-color: blue;
     --button-text-color: white;
+	--subtext-color: #2b2b2b;
 }
 /* Dark mode styles */
 .dark-mode {
@@ -23,6 +24,7 @@
     --button-color: blue; /* Change the button color to red */
     --nav-color: #000000;
     --nav-text: white;
+	--subtext-color: #c2c2c2;
 }
 
 
@@ -49,20 +51,30 @@ body {
     display: flex;
     flex-grow: 1; /* Add this to make the nav take up the full width */
     background-color: var(--nav-color);
+	 width: 100%;
+	 padding: 0.4em;
 }
 
 .nav ul {
-    display: flex;
     list-style: none;
+	 
 }
 
 .nav li {
+	 display: inline-block;
     margin: 10px;
+	 width: 9%;
+	 
 }
 
 .nav a {
     text-decoration: none;
     color: var(--nav-text);
+}
+
+.nav button {
+	 background-color: var(--nav-color);
+
 }
 
 /* Change the toggle to a button */
@@ -120,6 +132,37 @@ body {
 footer {
     padding: 20px;
     text-align: center;
+}
+
+.article-title {
+	margin-bottom: 2.5%;
+}
+
+.article-subtitle {
+	font-size: 1.2em;
+	font-style: italic;
+	margin-bottom: 25px;
+	color: var(--subtext-color);
+}
+
+.article-text {
+	margin-bottom: 5%;
+	
+}
+
+.article-content {
+	 width: 90%;
+	 margin-left: 5%;
+	 margin-right: 2.5%;
+	 
+}
+
+.article-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 2.5%;
 }
 
 /* Media queries for different device widths */
