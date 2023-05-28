@@ -1,30 +1,30 @@
 /* Add your custom styles here */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* Define CSS variables for colors */
 :root {
-    --background-color: #e6e6e6;
-    --nav-color: #07011a;
-    --nav-text: white;
-    --text-color: black;
-    --link-color: blue;
-    --button-color: blue;
-    --button-text-color: white;
-	--subtext-color: #2b2b2b;
+  --background-color: #e6e6e6;
+  --nav-color: #07011a;
+  --nav-text: white;
+  --text-color: black;
+  --link-color: blue;
+  --button-color: blue;
+  --button-text-color: white;
+  --subtext-color: #2b2b2b;
 }
 /* Dark mode styles */
 .dark-mode {
-    --background-color: #08011c; /* Change the background color to black */
-    --text-color: white; /* Change the text color to white */
-    --link-color: white; /* Change the link color to white */
-    --button-color: blue; /* Change the button color to red */
-    --nav-color: #000000;
-    --nav-text: white;
-	--subtext-color: #c2c2c2;
+  --background-color: #08011c; /* Change the background color to black */
+  --text-color: white; /* Change the text color to white */
+  --link-color: white; /* Change the link color to white */
+  --button-color: blue; /* Change the button color to red */
+  --nav-color: #000000;
+  --nav-text: white;
+  --subtext-color: #c2c2c2;
 }
 
 
@@ -34,127 +34,159 @@ body {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo img {
-    height: 40px;
+  height: 40px;
 }
 
 .nav {
-    display: flex;
-    flex-grow: 1; /* Add this to make the nav take up the full width */
-    background-color: var(--nav-color);
-	 width: 100%;
-	 padding: 0.4em;
+  display: flex;
+  flex-grow: 1; /* Add this to make the nav take up the full width */
+  background-color: var(--nav-color);
+  width: 100%;
+  padding: 0.4em;
 }
 
 .nav ul {
-    list-style: none;
-	 
+  list-style: none;
+  
 }
 
 .nav li {
-	 display: inline-block;
-    margin: 10px;
-	 width: 9%;
-	 
+  display: inline-block;
+  margin: 10px;
+  width: 9%;
+  
 }
 
 .nav a {
-    text-decoration: none;
-    color: var(--nav-text);
+  text-decoration: none;
+  color: var(--nav-text);
 }
 
 .nav button {
-	 background-color: var(--nav-color);
-
+  background-color: var(--nav-color);
+  
 }
 
 /* Change the toggle to a button */
 .toggle {
-    margin-left: auto; /* Push the button to the right */
+  margin-left: auto; /* Push the button to the right */
 }
 
 .toggle button {
-    border: none;
-    padding: 2px;
-    cursor: pointer;
-    color: var(--text-color);
-    background-color: var(--background-color);
+  border: none;
+  padding: 2px;
+  cursor: pointer;
+  color: var(--text-color);
+  background-color: var(--nav-color);
 }
 
 .top-stories {
-    padding: 20px;
+  padding: 20px;
 }
 
 .top-stories h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .stories-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .story {
-    border: 1px solid gray;
+  border: 1px solid gray;
 }
 
 .story img {
-    width: 100%;
+  width: 100%;
 }
 
 .story h3 {
-    padding: 10px;
+  padding: 10px;
 }
 
 .story p {
-    padding: 10px;
+  padding: 10px;
 }
 
 .story a {
-    display: block;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    color: var(--button-text-color);
-    background-color: var(--button-color);
+  display: block;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--button-text-color);
+  background-color: var(--button-color);
 }
 
 footer {
-    padding: 20px;
-    text-align: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.article img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
 }
 
 .article-title {
-	margin-bottom: 2.5%;
+  margin-bottom: 2.5%;
 }
 
 .article-subtitle {
-	font-size: 1.2em;
-	font-style: italic;
-	margin-bottom: 25px;
-	color: var(--subtext-color);
+  font-size: 1.2em;
+  font-style: italic;
+  margin-bottom: 25px;
+  color: var(--subtext-color);
 }
 
 .article-text {
-	margin-bottom: 5%;
-	
+  margin-bottom: 5%;
+  
+}
+
+.donate-text {
+  margin-top: 10%;
+  margin-bottom: 2.5%;
+  font-size: .8em;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.donate-addr {
+  font-size: .95em;
+  color: red;
+  margin-bottom: 1%;
+  
+}
+.donate-addr2 {
+  font-size: 1em;
+  color: red;
+  margin-bottom: 3%;
+}
+.donate {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: auto;
+  
 }
 
 .article-content {
-	 width: 90%;
-	 margin-left: 5%;
-	 margin-right: 2.5%;
-	 
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 2.5%;
+  
 }
 
 .article-image {
@@ -169,32 +201,32 @@ footer {
 
 /* For devices with width less than or equal to 600px */
 @media (max-width: 600px) {
-
+  
   /* Make the logo smaller */
   .logo img {
-      height: 40px;
+    height: 40px;
   }
-
+  
   /* Make the nav items stack vertically and center them */
   .nav ul {
-      flex-direction: column; 
-      align-items: center; 
+    flex-direction: column; 
+    align-items: center; 
   }
-
+  
   /* Make the stories grid have one column only */
   .stories-grid {
-      grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   
 }
 
 /* For devices with width between 601px and 900px */
 @media (min-width: 601px) and (max-width: 900px) {
-
-   /* Make the stories grid have two columns only */
-   .stories-grid {
-       grid-template-columns: repeat(2, 1fr);
-   }
+  
+  /* Make the stories grid have two columns only */
+  .stories-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
   
 }
 

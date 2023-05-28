@@ -4,7 +4,7 @@ var menu = {
      l2 : "About", 
      l3 : "News", 
      l4 : "More", 
-     l5 : "IDK",
+     l5 : "Donate",
      //l5 : "More", 
      // links 
      link1 : 'index.html',  // simply change these to change menu for whole site 
@@ -12,7 +12,7 @@ var menu = {
      link3 : "portfolio.html", 
      link4 : "news.html", 
      link5 : "contact.html",
-     link5 : "idk.html", 
+     link5 : "donate.html", 
     
      // (B) INITIALIZE GAME 
      init : () => { 
