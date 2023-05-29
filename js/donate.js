@@ -1,6 +1,6 @@
 var donate = { 
      // name 
-     l1 : "Your donation's will help keep America great!!!", 
+     l1 : "Your donation's will help this great organization grow and continue spreading truth", 
      l2 : "Bitcoin: bc1qgf6fcsgrmjd6pkwg3yvwwxm8x5a9tup7espa9a", 
      l3 : "Ethereum: 0xd69a52d48DB1907289056f0D5399D80f56eEA9F6", 
      l4 : "Litecoin: ltc1qh3cuqxlf4trfpvjxlau4v6ctn40xc3f38kat4q", 
