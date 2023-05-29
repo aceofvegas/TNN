@@ -137,6 +137,7 @@ footer {
 
 .article img {
   width: 400px;
+  width: 75%;
   height: 250px;
   object-fit: cover;
 }
