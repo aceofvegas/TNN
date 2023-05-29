@@ -9,7 +9,7 @@ var menu = {
      // links 
      link1 : 'index.html',  // simply change these to change menu for whole site 
      link2 : "about.html", 
-     link3 : "portfolio.html", 
+     link3 : "vid1.html", 
      link4 : "news.html", 
      link5 : "contact.html",
      link5 : "donate.html", 

@@ -189,6 +189,12 @@ footer {
   
 }
 
+.vids {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .article-image {
   display: block;
   margin-left: auto;
