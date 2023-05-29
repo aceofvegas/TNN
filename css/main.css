@@ -41,6 +41,7 @@ body {
 .logo {
   display: flex;
   align-items: center;
+  margin-left: 2.5%;
 }
 
 .logo img {
