@@ -9,9 +9,9 @@ var menu = {
      // links 
      link1 : 'index.html',  // simply change these to change menu for whole site 
      link2 : "about.html", 
-     link3 : "vid1.html", 
-     link4 : "news.html", 
-     link5 : "contact.html",
+     link3 : "news.html", 
+     link4 : "vid1.html", 
+     link6 : "contact.html",
      link5 : "donate.html", 
     
      // (B) INITIALIZE GAME 
